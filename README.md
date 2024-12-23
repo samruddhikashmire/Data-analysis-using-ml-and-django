@@ -32,7 +32,6 @@ This project is a simple web-based CSV analyzer built with Django. It allows use
    ```bash
    https://github.com/samruddhikashmire/Data-analysis-using-ml-and-django.git
 2. **Runserver**
-   cd csv_analyzer
    python manage.py migrate
    python manage.py runserver
    
