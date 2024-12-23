@@ -1,0 +1,13 @@
+<h2>Data Analysis Results</h2>
+
+<h3>First Few Rows</h3>
+<div>{{ first_few_rows|safe }}</div>  <!-- Render the first few rows of the dataframe -->
+
+<h3>Summary Statistics</h3>
+<div>{{ summary_statistics|safe }}</div>  <!-- Render summary statistics -->
+
+<h3>Missing Values</h3>
+<div>{{ missing_values|safe }}</div>  <!-- Render missing values -->
+
+<h3>Data Visualization</h3>
+<img src="data:image/png;base64,{{ graph_url }}" alt="Data Visualization" />  <!-- Display the visualization -->
