@@ -30,8 +30,7 @@ This project is a simple web-based CSV analyzer built with Django. It allows use
    First, clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/samruddhikashmire/Data analysis using ml and django.git
-   
+   https://github.com/samruddhikashmire/Data-analysis-using-ml-and-django.git
 2. **Runserver**
    cd csv_analyzer
    python manage.py migrate
